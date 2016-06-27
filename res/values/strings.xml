@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SdpProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="nilaiA">Nilai A</string>
+    <string name="nilaiB">Nilai B</string>
+    <string name="tambah">Tambah</string>
+    <string name="clear">Clear</string>
+    <string name="exit">Exit</string>
+</resources>

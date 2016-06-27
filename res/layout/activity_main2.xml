@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nilaiA"/>
+
+    <EditText
+        android:layout_width="368dp"
+        android:layout_height="54dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/idNilaiA"/>
+
+    <TextView
+        android:text="@string/nilaiB"
+        android:layout_width="60dp"
+        android:layout_height="19dp"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <EditText
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/idNilaiB" />
+
+    <Button
+        android:text="@string/tambah"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:id="@+id/buttonTambah"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/idHasil" />
+
+    <Button
+        android:text="@string/clear"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:id="@+id/buttonClear" />
+
+    <Button
+        android:text="@string/exit"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:id="@+id/buttonExit" />
+</LinearLayout>
