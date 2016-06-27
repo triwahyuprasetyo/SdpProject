@@ -2,6 +2,7 @@ package com.why.sdpproject;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -64,7 +65,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Toast.makeText(getApplicationContext(), "The onCreate() event",Toast.LENGTH_SHORT);
+        Log.i("Test","onCreate");
+
+        Toast.makeText(getApplicationContext(), "The onCreate() event",Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -93,34 +96,34 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Toast.makeText(getApplicationContext(), "The onStart() event",Toast.LENGTH_SHORT);
+        Toast.makeText(getApplicationContext(), "The onStart() event",Toast.LENGTH_SHORT).show();
     }
 
     /** Called when the activity has become visible. */
     @Override
     protected void onResume() {
         super.onResume();
-        Toast.makeText(getApplicationContext(),  "The onResume() event",Toast.LENGTH_SHORT);
+        Toast.makeText(getApplicationContext(),  "The onResume() event",Toast.LENGTH_SHORT).show();
     }
 
     /** Called when another activity is taking focus. */
     @Override
     protected void onPause() {
         super.onPause();
-        Toast.makeText(getApplicationContext(),  "The onPause() event",Toast.LENGTH_SHORT);
+        Toast.makeText(getApplicationContext(),  "The onPause() event",Toast.LENGTH_SHORT).show();
     }
 
     /** Called when the activity is no longer visible. */
     @Override
     protected void onStop() {
         super.onStop();
-        Toast.makeText(getApplicationContext(),  "The onStop() event",Toast.LENGTH_SHORT);
+        Toast.makeText(getApplicationContext(),  "The onStop() event",Toast.LENGTH_SHORT).show();
     }
 
     /** Called just before the activity is destroyed. */
     @Override
     public void onDestroy() {
         super.onDestroy();
-        Toast.makeText(getApplicationContext(),  "The onDestroy() event",Toast.LENGTH_SHORT);
+        Toast.makeText(getApplicationContext(),  "The onDestroy() event",Toast.LENGTH_SHORT).show();
     }
 }
