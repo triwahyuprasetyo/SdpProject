@@ -5,7 +5,8 @@ package com.why.sdpproject;
  */
 
 public class Rumus {
-    private double a, b, diskon, potongan;
+    private double a, b;
+    protected double diskon, potongan;
 
     public Rumus() {
 
